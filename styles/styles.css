@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #CFC9C7;
+}
+
+ul{
+    list-style: none;
+}
+
+.menu__horizontal{
+    
+}
+
+.menu__horizontal li {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family:oswald;
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+}
+
+.menu__horizontal a:hover{
+    background-color: green;
+    color: black;
+    text-decoration: none;
+}
+
+.search form{
+    display: inline-block;
+    width: 10%;
+    background-color: black;
+}
+
+.parrafos p{
+    display: inline;
+}
+
+#imagen-principal img{
+    display: inline-block;
+    width: 400px;
+    height: 350px;
+    position: relative;
+    float: right;
+}
+
+#menuArriba{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-evenly;*/
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+}
+
+#logoPrincipal img{
+    margin: auto;
+    display: block;
+    width: 20%;
+    height: 10%;
+}
+
+.tituloArriba{
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 40px;
+    width: 400px;
+    text-align: center;
+    font-family: Fascinate;
+    font-size: 80px;
+}
+.arriba{
+    display: flex;
+    flex-direction: row;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    width: 80%;
+    margin: auto;
+}
+
+#seccionAbajo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+#filaAbajo1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#filaAbajo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#filaAbajo1 img{
+    display: inline-block;
+    width: 50%;
+}
+
+#filaAbajo2 img{
+    display: inline-block;
+    width: 50%;
+}
+
+.primeraFila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.primeraFila div img{
+    display: inline-block;
+    width: 80%
+}
+
+.segundaFila{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    justify-content: space-evenly;
+    /*flex-wrap: wrap-reverse;*/
+}
+.recetasChicas img{
+    display: inline-block;
+    width: 200px;
+    height: 270px;
+}
+
+#recetasGrandes img{
+    display: inline-block;
+    width: 70%
+}
+
+h2{
+    margin-left: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 50px;
+    font-family: Fascinate;
+}
+
+h3{
+    font-size: 25px;
+    font-family: oswald;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sinImagen{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+footer nav{
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer div{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+footer div .iconosAbajo{
+    display: inline-block;
+}
+
+footer ul li{
+    font-family:oswald;
+    font-size: 20px;
+}
